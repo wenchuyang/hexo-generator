@@ -1,7 +1,10 @@
 ---
+layout: post
 title: GitHub+Hexo快速搭建博客
 date: 2018-01-05 11:01:48
 tags: Hexo
+categories:
+- 计算机
 ---
 Hexo 是一个快速、简洁且高效的博客框架。事实上，你也可以选择上[官网](https://hexo.io/zh-cn/)看教程。利用GitHub+Hexo我们可以快速搭建一个个人博客网站。以下是使用教程。
 ## 一. 安装Hexo

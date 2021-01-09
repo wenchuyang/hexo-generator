@@ -2,6 +2,9 @@
 title: 浅谈js变量声明
 date: 2018-04-08 21:25:48
 tags: JavaScript
+categories:
+- 计算机
+- 前端
 ---
 
 &emsp;&emsp;或者确切地说应该是变量声明以及与之相关的一些东西。<br>
