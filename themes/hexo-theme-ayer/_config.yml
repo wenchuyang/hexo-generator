@@ -7,7 +7,7 @@ menu:
   # 旅行: /tags/旅行/
   # 摄影: http://shenyu-vip.lofter.com
   # 友链: /friends
-  # 关于我: /2019/about
+  关于我: /about
 
 # 站点次标题和打字动效
 # https://github.com/mattboldt/typed.js
@@ -136,7 +136,7 @@ music:
 
 # 访问量统计(不蒜子)
 busuanzi:
-  enable: false
+  enable: true
 
 # 友盟cnzz统计(url填js代码src链接)
 cnzz:
@@ -162,7 +162,7 @@ katex:
 since: 2018
 
 # 是否显示页脚信息(建议保留)
-pageFooter: false
+pageFooter: true
 
 # ICP备案信息尾部显示
 icp:
