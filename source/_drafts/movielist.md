@@ -3,7 +3,7 @@ title: Movie List
 tags: [影视剧, 清单]
 date: 2021-01-12 21:35:27
 categories:
-- 书籍
+- 影视剧
 ---
 
 # 看过
