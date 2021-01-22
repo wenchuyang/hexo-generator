@@ -1,9 +1,9 @@
 ---
 title: Movie List
-tags: [影视剧, 书单影单]
+tags: [影视剧, 清单]
 date: 2021-01-12 21:35:27
 categories:
-- 书单影单
+- 书籍
 ---
 
 # 看过
