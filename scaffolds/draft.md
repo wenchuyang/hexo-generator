@@ -2,5 +2,7 @@
 title: {{ title }}
 date: {{ date }}
 categories:
-tags: []
+- 计算机
+- 前端
+tags: [react]
 ---
