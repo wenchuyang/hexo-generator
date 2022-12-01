@@ -80,5 +80,5 @@ theme: hexo-theme-ayer
 deploy:
   - type: git
     repo: git@github.com:wenchuyang/wenchuyang.github.io.git
-  - type: git
-    repo: git@gitee.com:wenchuyang/wenchuyang.git
+  # - type: git
+  #   repo: git@gitee.com:wenchuyang/wenchuyang.git
