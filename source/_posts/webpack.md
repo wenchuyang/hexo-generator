@@ -3,7 +3,7 @@ title: webpack
 categories:
   - 计算机
   - 前端
-tags: []
+tags: ['webpack']
 date: 2021-02-22 13:13:44
 ---
 
@@ -35,7 +35,7 @@ node-sass src/css/main.scss dist/css/main.css -w  // 自动实时翻译
 使用 `node-sass src/css -o dist/css -w` 可以实时监听 `src/css` 文件夹下所有的 scss 文件的改动并输出到 `dist/css` 文件夹下。
 
 ## Babel
-node-sass 是翻译 sass 的工具，Babel 则是翻译 js 的工具。js 在不断地更新，ES5、ES6，TypeScript，等等，使用 Babel 可以将它们统一翻译为所有浏览器都可以接受的js。
+node-sass 是翻译 sass 的工具，Babel 则是翻译 js 的工具。js 在不断地更新，ES5、ES6，TypeScript，等等，使用 Babel 可以将它们统一翻译为所有浏览器都可以接受的 js。
 [Babel官方文档](https://babeljs.io/docs/en/babel-cli)
 1. `npm init` 创建一个合法的 package.json 文件
 2. `npx babel main.js --out-file main-compiled.js` 使用 `npx babel` 代替 `./node_modules/.bin/babel`。`--out-file` 可以简写为 `-o`.
@@ -167,6 +167,10 @@ module.exports = {
     watch: true,
 }
 ```
+
+# plugin 和 loader 的区别
+loader: 转换器，将一个文件编译成另一个文件，比如将 scss 转换成 css，将 ts 转换成 js 等等，将 webpack 本身不能理解的文件转换成它能够理解的文件。
+plugin: 相当于一个扩展，在 loader 结束后，对 webpack 打包的生命周期事件进行监听并使用 webpack 提供的一些 API 来改变打包的输出结果。
 
 # todo
 打包工具的发展：grunt -> gulp -> webpack -> parcel? vite?
